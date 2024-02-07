@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## FUNCIONES 
 
 # Importaciones
@@ -299,7 +298,7 @@ def recomendacion_usuario(user):
         else:
             break
     
-=======
+
 ## FUNCIONES 
 
 # Importaciones
@@ -599,6 +598,4 @@ def recomendacion_usuario(user):
             contador += 1 
         else:
             break
-    
->>>>>>> 2d0f03746c65da323068033d08b041acdafd71e6
     return recomendaciones
