@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Funciones utiles para el ETL y el EDA
 # Librerias necesarias
 import pandas as pd
@@ -181,7 +180,7 @@ def bigote_max(columna):
     print(f'El bigote superior de la variable {columna.name} se ubica en:', bigote_max)
 
     # Cantidad de atípicos
-=======
+
 ## Funciones utiles para el ETL y el EDA
 # Librerias necesarias
 import pandas as pd
@@ -364,5 +363,4 @@ def bigote_max(columna):
     print(f'El bigote superior de la variable {columna.name} se ubica en:', bigote_max)
 
     # Cantidad de atípicos
->>>>>>> 2d0f03746c65da323068033d08b041acdafd71e6
     print(f'Hay {(columna > bigote_max).sum()} valores atípicos en la variable {columna.name}')
