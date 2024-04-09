@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copia los requerimientos del anfitrion
-COPY requirements.txt ./requirements.txt
+COPY requirements.txt requirements.txt
 
 # Instala los requerimientos
 RUN pip install -r requirements.txt
